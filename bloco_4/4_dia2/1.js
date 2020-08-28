@@ -15,11 +15,11 @@ function somar(array) {
     return soma;
 }
 
-leitor.question("Escolha a sua questao: \n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8-9)\n ~ ", function(answer) {
+leitor.question("Escolha a sua questao: \n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8-9)\nDigite o numero da questao que deseja ver: ", function(answer) {
 
     switch (answer) {
         case '1':
-            for(let i = 0; i<numbers.length; i++){
+            for(let i = 0; i<numbers.length; i+=1){
                 console.log(numbers[i]);
             }
             break;
@@ -38,7 +38,7 @@ leitor.question("Escolha a sua questao: \n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8-
             break;
         case '5':
             let maior = -99999999;
-            for(let aux = 0; aux < numbers.length; aux++){
+            for(let aux = 0; aux < numbers.length; aux+=1){
                 if(numbers[aux] >= maior){
                     maior = numbers[aux];
                 }
@@ -47,7 +47,7 @@ leitor.question("Escolha a sua questao: \n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8-
             break;
         case '6':
             let contador = 0;
-            for(let aux = 0; aux < numbers.length; aux++){
+            for(let aux = 0; aux < numbers.length; aux+=1){
                 if(numbers[aux]%2 !== 0){
                     contador += 1;
                 }
@@ -59,7 +59,13 @@ leitor.question("Escolha a sua questao: \n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8-
             }
             break;
         case '7':
-            //vou ja mecher nesse, quero fzr uma funcao global pra isso
+            let menor = 99999999;
+            for(let aux = 0; aux < numbers.length; aux+=1){
+                if(numbers[aux] <= menor){
+                    menor = numbers[aux];
+                }
+            }
+            console.log(`Maior valor no array: ${menor}`);
             break; 
         case '8':
             let array25 = [];

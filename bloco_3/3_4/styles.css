@@ -1,0 +1,37 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+article {
+    display: inline-block;
+    width: 70vw;
+    margin-left:10px;
+}
+
+h1,h2,h3{
+    margin:20px 0;
+}
+
+aside {
+    display: inline-block;
+    position: absolute;
+    top:30vh;
+}
+
+footer {
+    text-align: center;
+}
+
+p{
+    opacity: 0.7;
+    font-size: 19px;
+}
+
+a{
+    margin:10px;
+}
+
+.last-h3{
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-const n = 100;
+const n = 7;
 let n2 = n;
 let bases = 1; 
 

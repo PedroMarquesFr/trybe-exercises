@@ -90,6 +90,7 @@ leitor.question("Escolha a sua questao: \n(1)\n(2-3)\n(4)\n(5)\n(6)\n(7)\nDigite
                 return true;
             }
             console.log(a("trybe", "rybe")); 
+            console.log('trybe'.includes('rybe'));
         break;
         
     }

@@ -107,7 +107,28 @@
       <h3></h3>
     </div>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      //1
+      document.querySelector("h1").classList.add("title");
+
+      //2
+      for (let i = 0; i < document.querySelectorAll("h3").length; i += 1) {
+        document.querySelectorAll("h3")[i].classList.add("description");
+      }
+
+      //3
+      const leftContent = document.querySelector(".left-content");
+      document.querySelector(".main-content").removeChild(leftContent);
+
+      //4
+      document.querySelector(".right-content").style.marginRight = "auto";
+
+      //5
+      document.querySelector(".center-content").style.backgroundColor = "green";
+
+      //6
+      const i = document.querySelector("li");
+      i.removeChild(i.lastElementChild);
+      i.removeChild(i.lastElementChild);
     </script>
   </body>
 </html>

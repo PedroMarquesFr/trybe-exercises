@@ -25,5 +25,13 @@ console.log(
 //7
 console.log(document.querySelector("#elementoOndeVoceEsta").nextElementSibling);
 
-//80
+//8
 console.log(document.querySelector("#pai").childNodes[5]);
+
+//1
+const createdElement = document.createElement("div");
+document.querySelector("#pai").appendChild(createdElement);
+
+//2
+
+console.log(document.querySelector("#pai").innerHTML);

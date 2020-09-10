@@ -1,6 +1,7 @@
 document.getElementsByTagName("button")[0].addEventListener("click", () => {
   document.body.style.backgroundColor = "black";
   document.getElementById("text").style.color = "white";
+  localStorage.setItem("NightMode", true);
 });
 
 document

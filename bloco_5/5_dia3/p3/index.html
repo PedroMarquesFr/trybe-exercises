@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cat Walk</title>
+  </head>
+  <body>
+    <img
+      style="position: absolute"
+      src="http://www.anniemation.com/clip_art/images/cat-walk.gif"
+    />
+    <script>
+      const cat = document.querySelector("img");
+      let signal = "+";
+      cat.style.left = "0px";
+      const walk = () => {
+        //defaultWalk(); //modo que ele so vai pra frente
+        //reset();       //Reseta a posicao quando chega no final da pagina. Deve ser usado com o defaultWalk
+        backwardsWalk(); //Quando o gato alcança o final da tela, faz com que ele se mova para trás
+      };
+
+      setInterval(walk, 50);
+
+      function defaultWalk() {
+        cat.style.left = `${parseInt(cat.style.left) + 10}px`;
+      }
+
+      function reset() {
+        if (parseInt(cat.style.left) >= window.innerWidth) {
+          cat.style.left = "0px";
+        }
+      }
+      let switcher = true;
+      function backwardsWalk() {
+        if (parseInt(cat.style.left) + 270 >= window.innerWidth) {
+          switcher = true;
+        }
+        if (parseInt(cat.style.left) <= 0) {
+          switcher = false;
+        }
+        if (switcher === true) {
+          cat.style.left = `${parseInt(cat.style.left) - 10}px`;
+        } else {
+          cat.style.left = `${parseInt(cat.style.left) + 10}px`;
+        }
+      }
+    </script>
+  </body>
+</html>

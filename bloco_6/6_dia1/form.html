@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <div class="firsts">
+          <legend>Dados pessoais</legend>
+          <label for="a">nome:</label>
+          <input
+            name="nome"
+            required="required"
+            type="text"
+            id="a"
+            maxlength="40"
+          /><br />
+          <label for="b">email:</label>
+          <input
+            name="email"
+            required="required"
+            type="text"
+            id="b"
+            maxlength="50"
+          /><br />
+          <label for="c">CPF:</label>
+          <input
+            name="CPF"
+            required="required"
+            type="text"
+            id="c"
+            maxlength="11"
+          /><br />
+          <label>Endereco:</label>
+          <input
+            name="endereco"
+            required="required"
+            type="text"
+            maxlength="200"
+          /><br />
+          <label>Cidade:</label>
+          <input
+            name="cidade"
+            required="required"
+            type="text"
+            maxlength="28"
+          /><br />
+          <label>Estado:</label>
+        </div>
+
+        <select required="required" name="estados" id="estado"></select>
+
+        <label>Tipo:</label>
+        <input
+          name="ondemora"
+          required="required"
+          type="radio"
+          id="casa"
+          value="casa"
+        />
+        <label for="casa">Casa</label>
+        <input
+          name="ondemora"
+          required="required"
+          type="radio"
+          id="apartamento"
+          value="apartamento"
+        />
+        <label for="apartamento">Apartamento</label>
+        <fieldset>
+          <label>Resumo Curriculo:</label>
+          <br />
+          <textarea
+            required="required"
+            name="ResCurriculo"
+            rows="1"
+            cols="50"
+            maxlength="1000"
+          ></textarea>
+          <br />
+          <label>Cargo:</label>
+          <br />
+          <textarea
+            required="required"
+            name="Cargo"
+            rows="1"
+            cols="50"
+            maxlength="40"
+          ></textarea>
+          <br />
+          <label>Descrição do cargo :</label>
+          <br />
+          <textarea
+            required="required"
+            name="ResCargo"
+            rows="1"
+            cols="50"
+            maxlength="500"
+          ></textarea>
+          <br />
+          <label for="InicioData">Data de inicio :</label>
+          <input
+            required="required"
+            type="date"
+            name="InicioData"
+            id="ini-data"
+          />
+        </fieldset>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+    <script src="script.js"></script>
+    <button class="zerar">zerar valores</button>
+  </body>
+</html>

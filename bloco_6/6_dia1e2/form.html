@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form action="" method="get">
       <fieldset>
-        <div class="firsts">
+        <div class="firsts form-group">
           <legend>Dados pessoais</legend>
           <label for="a">nome:</label>
           <input
+            class="form-control"
             name="nome"
             required="required"
             type="text"
@@ -21,6 +29,7 @@
           /><br />
           <label for="b">email:</label>
           <input
+            class="form-control"
             name="email"
             required="required"
             type="text"
@@ -29,6 +38,7 @@
           /><br />
           <label for="c">CPF:</label>
           <input
+            class="form-control"
             name="CPF"
             required="required"
             type="text"
@@ -37,6 +47,7 @@
           /><br />
           <label>Endereco:</label>
           <input
+            class="form-control"
             name="endereco"
             required="required"
             type="text"
@@ -44,37 +55,50 @@
           /><br />
           <label>Cidade:</label>
           <input
+            class="form-control"
             name="cidade"
             required="required"
             type="text"
             maxlength="28"
           /><br />
           <label>Estado:</label>
+          <select
+            class="form-control"
+            required="required"
+            name="estados"
+            id="estado"
+          ></select>
         </div>
-
-        <select required="required" name="estados" id="estado"></select>
+        <div class="firsts form-group">
 
         <label>Tipo:</label>
+        <div class="form-check">  
+          <input
+            class="form-check-input"
+            name="ondemora"
+            required="required"
+            type="radio"
+            id="casa"
+            value="casa"
+          />
+          <label class="form-check-label" for="casa">Casa</label>
+        </div>
+        <div class="form-check">
         <input
-          name="ondemora"
-          required="required"
-          type="radio"
-          id="casa"
-          value="casa"
-        />
-        <label for="casa">Casa</label>
-        <input
+          class="form-check-input"
           name="ondemora"
           required="required"
           type="radio"
           id="apartamento"
           value="apartamento"
         />
-        <label for="apartamento">Apartamento</label>
+        <label class="form-check-label" for="apartamento">Apartamento</label>
+        </div>
         <fieldset>
           <label>Resumo Curriculo:</label>
           <br />
           <textarea
+            class="form-control"
             required="required"
             name="ResCurriculo"
             rows="1"
@@ -85,6 +109,7 @@
           <label>Cargo:</label>
           <br />
           <textarea
+            class="form-control"
             required="required"
             name="Cargo"
             rows="1"
@@ -95,6 +120,7 @@
           <label>Descrição do cargo :</label>
           <br />
           <textarea
+            class="form-control"
             required="required"
             name="ResCargo"
             rows="1"
@@ -104,16 +130,38 @@
           <br />
           <label for="InicioData">Data de inicio :</label>
           <input
+            class="form-control"
             required="required"
             type="date"
             name="InicioData"
             id="ini-data"
           />
+          <input type="text" id="datepicker">
         </fieldset>
       </fieldset>
-      <input type="submit" value="Submit" />
+    </div>
+      <input type="submit" value="Submit" class="btn btn-success" />
     </form>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="pikaday.js"></script>
+    <script>
+      var picker = new Pikaday({ field: document.getElementById('datepicker') });
+    </script>
     <script src="script.js"></script>
-    <button class="zerar">zerar valores</button>
   </body>
 </html>

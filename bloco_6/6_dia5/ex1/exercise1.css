@@ -1,0 +1,38 @@
+body {
+  font-size: 22px;
+  margin: 20px;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 30px 0;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: aquamarine;
+    font-size: 20px;
+    margin: 3px;
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div figure {
+    background-size: cover;
+    flex-basis: 50%;
+    margin: 0;
+  }
+  img {
+    align-self: center;
+  }
+}

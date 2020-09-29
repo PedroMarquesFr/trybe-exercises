@@ -66,8 +66,7 @@ numStudents(allLessons);
 
 //7
 const getValueByNumber = (obj, position) => {
-  const array = Object.values(obj);
-  console.log(array[position]);
+  console.log(Object.values(obj)[position]);
 };
 getValueByNumber(lesson1, 0);
 

@@ -68,12 +68,15 @@ const expected_result = false;
 function authorUnique() {
   return books.some((book) => {
     return books.some((secBook) => {
-      if (book.author.birthYear === secBook.author.birthYear) {
-        if (book.author.name !== book.author.name) {
-          return true;
-        }
-        return false;
+      if (
+        book.author.birthYear === secBook.author.birthYear &&
+        book.id !== secBook.id
+      ) {
+        console.log("true");
+        return true;
       }
+      console.log("false");
+      return false;
     });
   });
 }

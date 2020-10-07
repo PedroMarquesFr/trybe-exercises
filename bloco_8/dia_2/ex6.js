@@ -63,22 +63,15 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = [
+  "O Senhor dos Anéis",
+  "Fundação",
+  "O Chamado de Cthulhu",
+];
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
-  });
+function oldBooks() {
+  const oldBooks = books.filter((book) => 2020 - book.releaseYear > 60);
+  return oldBooks.map((book) => book.name);
 }
 
-assert.strictEqual(authorUnique(), expected_result);
+assert.deepStrictEqual(oldBooks(), expected_result);

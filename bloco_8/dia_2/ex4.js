@@ -63,22 +63,35 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = [
+  {
+    id: 6,
+    name: "O Chamado de Cthulhu",
+    genre: "Terror",
+    author: { name: "H. P. Lovecraft", birthYear: 1890 },
+    releaseYear: 1928,
+  },
+  {
+    id: 3,
+    name: "Fundação",
+    genre: "Ficção Científica",
+    author: { name: "Isaac Asimov", birthYear: 1920 },
+    releaseYear: 1951,
+  },
+  {
+    id: 2,
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
+    author: { name: "J. R. R. Tolkien", birthYear: 1892 },
+    releaseYear: 1954,
+  },
+];
+const orderOldBooks = (oldBooks) =>
+  oldBooks.sort((a, b) => a.releaseYear - b.releaseYear);
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
-  });
+function oldBooks() {
+  const oldOnes = books.filter((book) => 2020 - book.releaseYear > 60);
+  return orderOldBooks(oldOnes);
 }
-
-assert.strictEqual(authorUnique(), expected_result);
+oldBooks();
+assert.deepStrictEqual(oldBooks(), expected_result);

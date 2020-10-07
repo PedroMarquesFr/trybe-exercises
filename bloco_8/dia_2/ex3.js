@@ -63,22 +63,53 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = [
+  {
+    id: 1,
+    name: "As Crônicas de Gelo e Fogo",
+    genre: "Fantasia",
+    author: {
+      name: "George R. R. Martin",
+      birthYear: 1948,
+    },
+    releaseYear: 1991,
+  },
+  {
+    id: 2,
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
+    author: {
+      name: "J. R. R. Tolkien",
+      birthYear: 1892,
+    },
+    releaseYear: 1954,
+  },
+  {
+    id: 3,
+    name: "Fundação",
+    genre: "Ficção Científica",
+    author: {
+      name: "Isaac Asimov",
+      birthYear: 1920,
+    },
+    releaseYear: 1951,
+  },
+  {
+    id: 4,
+    name: "Duna",
+    genre: "Ficção Científica",
+    author: {
+      name: "Frank Herbert",
+      birthYear: 1920,
+    },
+    releaseYear: 1965,
+  },
+];
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
-  });
+function fantasyOrScienceFiction() {
+  return books.filter(
+    (book) => book.genre === "Ficção Científica" || book.genre === "Fantasia"
+  );
 }
-
-assert.strictEqual(authorUnique(), expected_result);
+//oq o filter faz eh colocar no novo array apenas os elementos que retornam true de acordo com a regra de negocio
+assert.deepStrictEqual(fantasyOrScienceFiction(), expected_result);

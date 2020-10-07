@@ -63,22 +63,13 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = "O Senhor dos Anéis";
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
+function authorWith3DotsOnName() {
+  const author3DotsName = books.filter((book) => {
+    return book.author.name.split(".").length - 1 === 3;
   });
+  return author3DotsName[0].name;
 }
 
-assert.strictEqual(authorUnique(), expected_result);
+assert.deepStrictEqual(authorWith3DotsOnName(), expected_result);

@@ -63,22 +63,19 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = [
+  "Frank Herbert",
+  "George R. R. Martin",
+  "Isaac Asimov",
+  "J. R. R. Tolkien",
+];
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
-  });
+function fantasyOrScienceFictionAuthors() {
+  const fantasyAndCyfy = books.filter(
+    (book) => book.genre === "Fantasia" || book.genre === "Ficção Científica"
+  );
+  const authors = fantasyAndCyfy.map((book2) => book2.author.name);
+  return authors.sort();
 }
 
-assert.strictEqual(authorUnique(), expected_result);
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expected_result);

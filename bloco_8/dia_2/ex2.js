@@ -63,22 +63,49 @@ const books = [
   },
 ];
 
-const expected_result = false;
+const expected_result = [
+  {
+    age: 31,
+    author: "Isaac Asimov",
+  },
+  {
+    age: 38,
+    author: "H. P. Lovecraft",
+  },
+  {
+    age: 39,
+    author: "Stephen King",
+  },
+  {
+    age: 43,
+    author: "George R. R. Martin",
+  },
+  {
+    age: 45,
+    author: "Frank Herbert",
+  },
+  {
+    age: 62,
+    author: "J. R. R. Tolkien",
+  },
+];
 
-function authorUnique() {
-  return books.some((book) => {
-    return books.some((secBook) => {
-      if (
-        book.author.birthYear === secBook.author.birthYear &&
-        book.id !== secBook.id
-      ) {
-        console.log("true");
-        return true;
-      }
-      console.log("false");
-      return false;
-    });
+function defineNameAndAge() {
+  return books.map((book) => {
+    return {
+      age: book.releaseYear - book.author.birthYear,
+      author: book.author.name,
+    };
   });
 }
+function sortNameAndAge() {
+  const nameAndAge = defineNameAndAge();
+  //console.log(nameAndAge);
+  return nameAndAge.sort((a, b) => {
+    return a.age - b.age;
+  });
+  //console.log(nameAndAge);
+  //return nameAndAge;
+}
 
-assert.strictEqual(authorUnique(), expected_result);
+assert.deepStrictEqual(sortNameAndAge(), expected_result);

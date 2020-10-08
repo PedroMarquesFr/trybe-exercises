@@ -8,15 +8,16 @@ const notes = [
 ];
 
 function studentAverage() {
-  return students.reduce((accumulateObj, currentStudent, index) => {
-    const studentAvarage = notes[index].reduce((notesSum, actualNote) => {
-      return notesSum + actualNote;
-    }, 0);
+  return students.map((name, index) => {
     return {
-      name: currentStudent,
-      average: studentAvarage / notes[index].length,
+      name,
+      average:
+        notes[index].reduce(
+          (valorAnterior, valorAtual) => (valorAnterior += valorAtual),
+          0
+        ) / notes[index].length,
     };
-  }, []);
+  });
 }
 
 const expected = [

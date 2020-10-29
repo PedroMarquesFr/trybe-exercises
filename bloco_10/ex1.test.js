@@ -1,5 +1,5 @@
-const { sum, myRemove, myRemoveWithoutCopy } = require("./ex1.js");
-describe("Funcao soma", () => {
+const { sum, myRemove, myRemoveWithoutCopy, myFizzBuzz } = require("./ex1.js");
+describe("#Funcao soma", () => {
   it("Soma de 2+3 igual a 5", () => {
     expect(sum(2, 3)).toBe(5);
   });
@@ -8,7 +8,7 @@ describe("Funcao soma", () => {
   });
 });
 
-describe("Remove elemento especificado no array", () => {
+describe("#Remove elemento especificado no array", () => {
   it("Verifique se a chamada myRemove([1, 2, 3, 4], 3) retorna o array esperado", () => {
     expect(myRemove([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
   });
@@ -23,7 +23,7 @@ describe("Remove elemento especificado no array", () => {
   });
 });
 
-describe("Remove elemento especificado no array sem copia", () => {
+describe("#Remove elemento especificado no array sem copia", () => {
   it("Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado", () => {
     expect(myRemoveWithoutCopy([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
   });
@@ -38,7 +38,23 @@ describe("Remove elemento especificado no array sem copia", () => {
   });
 });
 
-describe("", () => {});
+describe("#FizzBuzz", () => {
+  it("Faça uma chamada com um número divisível por 3 e 5 e verifique se o retorno é o esperado", () => {
+    expect(myFizzBuzz(345)).toBe("fizzbuzz");
+  });
+  test("Faça uma chamada com um número divisível por 3 e verifique se o retorno é o esperado", () => {
+    expect(myFizzBuzz(3)).toBe("fizz");
+  });
+  it("Faça uma chamada com um número divisível por 5 e verifique se o retorno é o esperado", () => {
+    expect(myFizzBuzz(5)).toBe("buzz");
+  });
+  it("Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado", () => {
+    expect(myFizzBuzz(2)).toBe(2);
+  });
+  it("Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado", () => {
+    expect(myFizzBuzz("2")).toBe(2);
+  });
+});
 // it("lanca erro se recebe string como parametro", () => {
 //   expect(sum(4, "5")).toThrow(TypeError);
 // });

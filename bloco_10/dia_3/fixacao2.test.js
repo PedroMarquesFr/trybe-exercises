@@ -24,8 +24,8 @@ describe("Para fixar", () => {
     expect(math.dividir()).toBe(5);
     expect(math.dividir()).toBe(15);
   });
-  it("Faça o mock da função subtrair de maneira que seja possível restaurar sua implementação original. Defina como retorno padrão o valor '20'. Teste o número de chamadas e o retorno. Restaure a implementação original da função e teste sua execução", () => {
-    math.multiplicar = jest.fn().mockImplementation((a, b) => a * b);
-    expect(math.multiplicar(3, 3)).toBe(9);
-  });
+  //   it("Faça o mock da função subtrair de maneira que seja possível restaurar sua implementação original. Defina como retorno padrão o valor '20'. Teste o número de chamadas e o retorno. Restaure a implementação original da função e teste sua execução", () => {
+  //     const mockSubtrair = jest.spyOn(math.subtrair, "somar");
+  //     expect(math.multiplicar(3, 3)).toBe(9);
+  //   });
 });

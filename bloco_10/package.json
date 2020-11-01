@@ -11,9 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.15",
-    "jest": "^26.6.1"
-  },
-  "dependencies": {
+    "jest": "^26.6.1",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "dependencies": {}
 }

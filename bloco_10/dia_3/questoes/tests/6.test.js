@@ -1,4 +1,4 @@
-let fetchDog = require("./6");
+let fetchDog = require("../6");
 const fetch = require("node-fetch");
 
 jest.mock("node-fetch");

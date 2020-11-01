@@ -1,4 +1,4 @@
-let randomNumber = require("./1");
+let randomNumber = require("../1");
 
 // afterEach(randomNumber.mockReset);
 

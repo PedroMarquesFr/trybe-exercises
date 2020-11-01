@@ -2,9 +2,9 @@ let {
   returnUpperCaseString,
   returnStringFirstLetter,
   concatStrings,
-} = require("./4-5");
+} = require("../4-5");
 
-jest.mock("./4-5");
+jest.mock("../4-5");
 
 describe("4.mock everything", () => {
   it("Low case", () => {

@@ -15,7 +15,7 @@ it("test id request is working", async (done) => {
   done();
 });
 
-// const {fetchDog} = require("./service");
+// const {fetchDog} = require("../6");
 // describe("testando a requisição", () => {
 //   fetchDog = jest.fn();
 //   afterEach(fetchDog.mockReset);

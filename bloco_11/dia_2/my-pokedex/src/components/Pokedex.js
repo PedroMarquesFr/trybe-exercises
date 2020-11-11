@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import Pokemon from "./Pokemon";
 import PropTypes from "prop-types";
 
-class Pokedex extends React.Component {
+class Pokedex extends Component {
   render() {
     return (
       <div className="pokedex">

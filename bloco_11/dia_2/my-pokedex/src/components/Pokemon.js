@@ -1,13 +1,11 @@
 import React from "react";
-import normal from "../icons/bug.svg";
-
 import PropTypes from "prop-types";
 
 class Pokemon extends React.Component {
   render() {
     const { name, type, averageWeight, image } = this.props;
     return (
-      <section className="pokemon">
+      <section className={`pokemon ${type}`}>
         <div className="pokemon-info">
           <p className="name">{name}</p>
           <p>Tipo: {type}</p>
@@ -17,7 +15,6 @@ class Pokemon extends React.Component {
           </p>
         </div>
         <img className="img" src={image} alt="pokemon"></img>
-        <img className="normalIcon" alt="pokemon" src={normal}></img>
       </section>
     );
   }

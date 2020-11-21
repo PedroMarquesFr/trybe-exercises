@@ -1,6 +1,7 @@
 <h1 align="center">
   <img src="./trybepreto.png" alt="logo Trybe">
 </h1>
+<h2>Readme feito por <a href="https://github.com/ThiagoPederzolli">ThiagoPederzolli</a> ❤️</h2>
 <h3> Sobre esse repositório: </h3>
 <p>
 Esse repositório serve para armazenar códigos desenvolvidos ao longo do curso referentes a práticas presentes no conteúdo, aulas ao vivo e exercícios de cada dia de conteúdo do respectivo bloco.
@@ -22,6 +23,7 @@ Logo abaixo possui um sumário do módulo já concluído por mim de Fundamentos 
 </p>
 
 ---
+
 <h2>Sumário</h2>
 <details>
   <summary>Fundamentos do Desenvolvimento Web</summary>

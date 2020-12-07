@@ -1,187 +1,305 @@
-<h1 align="center">
-  <img src="./trybepreto.png" alt="logo Trybe">
-</h1>
-<h4>Readme feito por <a href="https://github.com/ThiagoPederzolli">ThiagoPederzolli</a> ❤️</h4>
-<h3> Sobre esse repositório: </h3>
-<p>
-Esse repositório serve para armazenar códigos desenvolvidos ao longo do curso referentes a práticas presentes no conteúdo, aulas ao vivo e exercícios de cada dia de conteúdo do respectivo bloco.
-</p>
-<p>
-A formação em desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> é dividida em quatro módulos: Fundamentos do Desenvolvimento Web, Desenvolvimento Front-end, Desenvolvimento Back-end e Ciência da Computação. 
-</p>
-<p>
-Cada um desses módulos é dividido em diversos blocos e esses blocos são divididos em dias de conteúdo, cada dia abordando parte do conteúdo referido pelo bloco.
-</p>
-<p>
-Os exercícios contidos nesse repositório são códigos em desenvolvimento, com diversos comentários e console.logs para entendimendo do fluxo e funcionalidade de cada arquivo, é um repositório de estudos onde o foco é armazenar o maior número de informações possíveis referentes aos conteúdos estudados ao longo de cada bloco de conteúdo.
-</p>
-<p>
-Códigos mais bem estruturados, de acordo com padrões de boas práticas, code clean e legibilidade estarão em repositórios referentes a projetos desenvolvidos, tanto no processo de avaliação dos blocos do curso da Trybe quanto referentes a outros projetos que eu tenha desenvolvido.
-</p>
-<p>
-Logo abaixo possui um sumário do módulo já concluído por mim de Fundamentos do Desenvolvimento Web e do módulo Desenvolvimento Front-end, módulo no qual me encontro cursando. Através do sumário é possível navegar pelo Readme que contém informações mais detalhadas do estudado em cada bloco.
-</p>
+<div align="center">
+<image src="./logosREADME/logotrybe.png" width="200" heigth="400">
 
----
+### Repositório de exercícios e projetos
 
-<h2>Sumário</h2>
-<details>
-  <summary>Fundamentos do Desenvolvimento Web</summary>
+Repositório criado com o intuito de abrigar todos exercícios e projetos presentes na grade de ensino da Trybe, feitos por mim durante o período que estiver cursando desenvolvimento de software. :rocket::green_heart:
 
-- <a href="#bloco1">Bloco 1: Unix, Bash e ShellScript </a>
-- <a href="#bloco2">Bloco 2: Git, GitHub e Internet </a>
-- <a href="#bloco3">Bloco 3: Introdução à HTML e CSS </a>
-- <a href="#bloco4">Bloco 4: Introdução à JavaScript e Lógica de Programação </a>
-- <a href="#bloco5">Bloco 5: JavaScript: DOM, Eventos e WebStorage </a>
-- <a href="#bloco6">Bloco 6: HTML e CSS: Froms, Flexbox e Responsivo </a>
-- <a href="#bloco7">Bloco 7: Introdução à JavaScript ES6 e Teste Unitários </a>
-- <a href="#bloco8">Bloco 8: Higher Order Functions do JavaScript ES6 </a>
-- <a href="#bloco9">Bloco 9: JavaScript Assíncrono e Promises </a>
-- <a href="#bloco10">Bloco 10: Testes Automatizados com Jest </a>
+<hr>
 
-</details>
+<image src="./logosREADME/logotrybe2.png" width="40" height="40" >
 
-<details>
-  <summary>Desenvolvimento Front-end</summary>
+## Fundamentos do Desenvolvimento Web
+</div>
 
-- <a href="#bloco11">Bloco 11: Introdução à React </a>
-- <a href="#bloco12">Bloco 12: Componentes com Estado, Eventos e Fromulários com React </a>
-- <a href="#bloco13">Bloco 13: Ciclo de Vida de Componentes e React Router </a>
-- <a href="#bloco15">Bloco 15: Testes automatizados com React Testing Library </a>
-- <a href="#bloco16">Bloco 16: Gerenciamento de estado com Redux </a>
+### [Bloco 1: Unix, Bash e Shell Script](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_01)
 
-</details>
+- [x] **1.3** | :arrow_right: Introdução - Unix & Shell
+- [x] **1.4** | :arrow_right: Unix & Bash - Parte 1
+- [x] **1.5** | :arrow_right: Unix & Bash - Parte 2
 
----
+### [Bloco 2: Git, GitHub e Internet](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_02)
 
-<h1 align="center"> Fundamentos do Desenvolvimento Web </h1>
+- [x] **2.1** | :arrow_right: Git & Github - O que é e para que serve
+- [x] **2.2** | :arrow_right: Git & Github - Entendendo os comandos
+- [x] **2.3** | :arrow_right: Internet - Entendendo como ela funciona
 
-<h2 id="bloco1"> Bloco 1: Unix, Bash e ShellScript </h2>
-<p>
-Primeiro bloco de conteúdo, onde fomos nos familiarizando com algumas ferramentas importantes para o ambiente de desenvolvimento. Tendo contado com o terminal, aprendendo a navegar pelas pastas, alterar arquivos, adicionar linhas.
-</p>
-<p>
-Também aprendemos a automatizar alguns processo através do uso de ShellScript.
-</p>
+### [Bloco 3: Introdução - HTML & CSS](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_03)
 
-<h2 id="bloco2"> Bloco 2: Git, GitHub e Internet </h2>
-<p>
-Aqui aprendemos versionamento de código, o que é Git, como usar ele a nosso favor para garantir uma maior segurança no desenvolvimento de projetos, como funciona o fluxo dele em trabalhos de equipe.
-</p>
-<p>
-Aprendemos a salvar nossos projetos no GitHub e como ele também possui várias features que ajudam na manutenção dos diversos aspectos que envolvem o desenvolvimento de projetos em equipe.
-</p>
-<p>
-Sobre a internet entendemos o seu fluxo de funcionamento, seus protocolos, requisições, respostas, estrutura, evolução.
-</p>
+- [x] **3.1** | :arrow_right: HTML & CSS - Estruturas de página
+- [x] **3.2** | :arrow_right: HTML & CSS - Primeiros passos em CSS
+- [x] **3.3** | :arrow_right: HTML & CSS - Seletores e posicionamento
+- [x] **3.4** | :arrow_right: HTML Semântico
+- [x] **3.5** | :arrow_right: Projeto: Lessons Learned
 
-<h2 id="bloco3"> Bloco 3: Introdução à HTML e CSS </h2>
-<p>
-Demos nossos primeiros passos com HTML e CSS, primeiro entendendo a estrutura do HTML, suas principais tags e questões de semântica. 
-</p>
-<p>
-No CSS aprendemos os primeiros passos, entendendo quais são os seletores que utilizamos para acessar os elementos no HTML,.como trabalhar questão de posicionamento e principais propriedades utilizadas.
-</p>
+### [Bloco 4: Introdução - JavaScript e Lógica de programação](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_04)
 
-<h2 id="bloco4"> Bloco 4: Introdução à JavaScript e Lógica de Programação </h2>
-<p>
-Nosso primeiro contato com JavaScript, entendendo o básico dos conceitos fundamentais desde variáveis, passando por Arrays, objetos, loops e funções.
-</p>
+- [x] **4.1** | :arrow_right: JavaScript - Primeiros passos
+- [x] **4.2** | :arrow_right: JavaScript - Array e loop For
+- [x] **4.3** | :arrow_right: JavaScript - Lógica de programação e Algoritmos
+- [x] **4.4** | :arrow_right: JavaScript - Objetos e funções
+- [x] **4.5** | :arrow_right: Projeto: Playground Functions
 
-<h2 id="bloco5"> Bloco 5: JavaScript: DOM, Eventos e WebStorage </h2>
-<p>
-Começamos a integrar nossos aprendizados em desenvolvimento web integrando HTML, CSS e JavaScript. Entendendo como utilizar o JavaScript para capturar elementos do HTML, manipulá-los e adicionar ou remover estilos e classes CSS.
-</p>
-<p>
-Também aprendemos a utilizar o LocalStorage como forma de ter um espaço no navegador da pessoa usuária para armazenar informações que possam ser aproveitadas mesmo que a página seja atualizada.
-</p>
+### [Bloco 5: JavaScript - DOM, Eventos e Web Storage](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_05)
 
-<h2 id="bloco6"> Bloco 6: HTML e CSS: Froms, Flexbox e Responsivo </h2>
-<p>
-Aprofundando os conhecimentos em HTML e CSS, aprendemos a desenvolver aquilo que todo site vai ter ao menos um: o famoso formulário. Com isso, aprendemos também a posicionar com mais facilidade os elementos em tela utilizando CSS Flexbox.
-</p>
-<p>
-Responsividade é um tema muito relevante e não poderia ficar de fora, afinal o uso de smartphones cresce rapidamente e o mercado digital precisa se adaptar a necessidade da pessoa usuária de ter o site acessível a telas pequenas.
-</p>
+- [x] **5.1** | :arrow_right: JavaScript - DOM e Seletores
+- [x] **5.2** | :arrow_right: JavaScript - Trabalhando com elementos
+- [x] **5.3** | :arrow_right: JavaScript - Eventos
+- [x] **5.4** | :arrow_right: JavaScript - Web Storage
+- [x] **5.5** | :arrow_right: Projeto: Arte com Pixels
+- [x] **5.6** | :arrow_right: Projeto: Lista de Tarefas
+- [x] **Bônus** | :arrow_right: Projeto: Meme Generator
+- [x] **Bônus** | :arrow_right: Projeto: Advinhe a Cor
+- [x] **Bônus** | :arrow_right: Projeto: Carta Misteriosa
 
-<h2 id="bloco7"> Bloco 7: Introdução à JavaScript ES6 e Teste Unitários </h2>
-<p>
-ES6 é a sigla de EcmaScript6, que refere-se a uma nova versão do JavaScript, desenvolvida com objetivo de padronizar e melhorar algunas aspectos do desenvolvimento com JavaScript.
-</p>
-<p>
-Testes são etapas muito importantes do processo de desenvolvimento de uma aplicação. Garantir que as funcionalidades estão funcionando de acordo com o esperado é essencial antes de colocar a aplicação em produção.
-</p>
-<p>
-Aprendemos então a desenvolver testes unitários para garantir que nossas funções ocorrem no fluxo esperado, garantindo melhor desempenho de nossas aplicações e segurança de nosso código.
-</p>
 
-<h2 id="bloco8"> Bloco 8: Higher Order Functions do JavaScript ES6 </h2>
-<p>
-Higher Order Functions são funções nativas para manipulação de Arrays. Arrays são uma das principais formas que iremos encontrar para armazenar informações.
-</p>
-<p>
-Aprendemos a salvar nossos projetos no GitHub e como ele também possui várias features que ajudam na manutenção dos diversos aspectos que envolvem o desenvolvimento de projetos em equipe.
-</p>
+### [Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_06)
 
-<h2 id="bloco9"> Bloco 9: JavaScript Assíncrono e Promises </h2>
-<p>
-Nesse bloco aprendemos a lidar com assíncronicidade no JavaScript. Em prol do dinamismo, nem sempre as informações chegam no momento em que são requisitadas, as vezes dependemos de fontes externas e isso demanda um tempo de resposta que não sabemos especificamente quanto irá durar esse tempo.
-</p>
-<p>
-Portanto, precisamos saber como lidar com essas situações através de async/await para informar que nossa função será assíncrona e deverá aguardar a resposta de uma requisição feita à uma fonte externa para continuar com alguma funcionalidade.
-</p>
+- [x] **6.1** | :arrow_right: HTML & CSS - Forms
+- [x] **6.2** | :arrow_right: Bibliotecas JavaScript e Frameworks CSS
+- [x] **6.3** | :arrow_right: CSS Flexbox - Part 1
+- [x] **6.4** | :arrow_right: CSS Flexbox - Part 2
+- [x] **6.5** | :arrow_right: CSS Responsivo - Mobile First
+- [x] **6.5** | :arrow_right: Projeto: Página inicial do Facebook
 
-<h2 id="bloco10"> Bloco 10: Testes Automatizados com Jest </h2>
-<p>
-Dada a importância de testagens comentada no bloco anterior, sabemos que a tendência de nossa aplicação é escalabilidade e precisaremos de mecanismos para deixar o processo de testagem mais eficiente.
-</p>
-<p>
-O Jest serve justamente para isso, ele é um framework que auxilia na automatização da execução de Testes.
-</p>
+### [Bloco 7: Introdução à JavaScript ES6 & Testes Unitários](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_07)
 
----
+- [x] **7.1** | :arrow_right: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] **7.2** | :arrow_right: JavaScript ES6 - Objects
+- [x] **7.3** | :arrow_right: Testes unitários em JavaScript
+- [x] **7.4** | :arrow_right: Projeto: JavaScript Testes Unitários
 
-<h1 align="center"> Desenvolvimento Front-end </h1>
+### [Bloco 8: Higher Order Functions do JavaScript ES6](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_08)
 
-<h2 id="bloco11"> Bloco 11: Introdução à React </h2>
-<p>
-Bloco focado em primeiros contatos com o React, entender o que são componentes, como se estrutura, fluxo entre componentes, o que é JSX(código que mescla JavaScript e HTML).
-</p>
+- [x] **8.1** | :arrow_right: JavaScript ES6: Higher Order Functions - forEach, find, filter, some, every, sort
+- [x] **8.2** | :arrow_right: JavaScript ES6: Higher Order Functions - map e reduce
+- [x] **8.3** | :arrow_right: JavaScript ES6: reduce
+- [x] **8.4** | :arrow_right: JavaScript ES6: spread operator, rest parameter, destructuring e mais
+- [x] **8.5** | :arrow_right: Projeto: Zoo Functions
 
-<h2 id="bloco12"> Bloco 12: Componentes com Estado, Eventos e Fromulários com React </h2>
-<p>
-Parte fundamental de qualquer aplicação é conseguir armazenar e manipular informações. Para isso, contamos com os estados em React, eles equivalem as variáveis do JavaScript puro onde armazenamos os valores de um formulário, por exemplo.
-</p>
-<p>
-Para que essas informações sejam encaminhadas para os estados, precisamos nos valer dos eventos que são ativados pela pessoa usuária e precisamos nos atentar porque o React não trabalha mais com o addEventListener, seus eventos são declarados dentro do componente como atributos de algum elemento e passamos como valor do atributo a função a ser executada para armazenar essas informações.
-</p>
+### [Bloco 9: JavaScript Assíncrono e Promises](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_09)
 
-<h2 id="bloco13"> Bloco 13: Ciclo de Vida de Componentes e React Router </h2>
-<p>
-Para trabalhar com classes, requisições assíncronas e outras questões, precisamos entender sobre o ciclo de vida de um componente para saber como utilizado adequadamente.
-</p>
-<p>
-Já o React Router trata-se de uma biblioteca que auxilia na construção de rotas de componentes, para garantir uma das facetas do React, que é a Single Page Application. É uma forma de otimizar a aplicação garantindo que apenas a renderização de um componente seja executada quando há alguma mudança em algum estado da aplicação, sendo desnecessário toda aquela atualização da aplicação que vemos no html onde é feita uma requisição que busca todas informações do zero.
-</p>
+- [x] **9.1** | :arrow_right: JavaScript Assíncrono e Callbacks
+- [x] **9.2** | :arrow_right: JavaScript Promises
+- [x] **9.3** | :arrow_right: Projeto: Carrinho de Compras
 
-<h2 id="bloco15"> Bloco 15: Testes automatizados com React Testing Library </h2>
-<p>
-React Testing Library é uma biblioteca que auxilia muito na testagens dos componentes da sua aplicação, fundamentada na ideia de experiência do usuário. Ela vai testar a aplicação a partir dum fluxo de navegação, tendo funções que simulam a interação da pessoa usuária.
-</p>
-<p>
-Algo interessante desse Bloco foi o aprendizado sobre os Strykers, que são os testes dos testes. É uma rodada de eventos que embaralha aleatoriamente o componente e testa resultados diferentes, através do que chamam de mutantes. A garantia de excelência dos testes criados se dá através da eliminação desses mutantes, ou seja, caso alguma dessas alterações aleatórias não seja barrada por um teste, esse mutante sobreviveu e você precisa aprimorar suas testagens para cobrir essa falha.
-</p>
+### [Bloco 10: Testes automatizados com Jest](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_10)
 
-<h2 id="bloco16"> Bloco 16: Gerenciamento de estado com Redux </h2>
-<p>
-Redux é uma biblioteca de gerenciador de estados, criando uma store global, facilitando o fluxo de informações de um componente para outro.
-</p>
-<p>
-Composta por actions, reducers e store. As interações da pessoa usuária despacha as actions para o store e os reducers irão ser responsáveis pelas regras de negócio para atualização dos estados.
-</p>
-<p>
-Aprendemos o redux-thunk, porque a estrutura principal do Redux é sincrona e composta por funções puras que não podem ser afetadas por efeitos colaterais. O redux-thunk é um middleware que nos ajuda a desenvolvermos códigos com redux podendo trabalhar com situações assíncronas, visto que em alguns casos de projetos lidaremos com necessidade buscar informações externas, podendo demorar no retorno dessas informações ou ocorrer um erro no meio do caminho.
-</p>
-<p>
-Dada a certa complexidade na estrutura e fluxo do Redux, também vimos conteúdos referentes a realização de testes em projetos React com Redux, auxiliando na melhoria do código e segurança da aplicação.
-</p>
+- [x] **10.1** | :arrow_right: Primeiros passos no Jest
+- [x] **10.2** | :arrow_right: Jest - Testes Assíncronos
+- [x] **10.3** | :arrow_right: Jest - Simulando Comportamentos
+- [x] **10.4** | :arrow_right: Projeto: Jest Assíncrono e Mocking
+<div align="center">
+<image src="./logosREADME/logotrybe2.png" width="40" height="40" >
+
+## Desenvolvimento Front-end
+
+</div>
+
+### [Bloco 11: Introdução à React](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_11)
+
+- [x] **11.1** | :arrow_right: 'Hello, world!' no React!
+- [x] **11.2** | :arrow_right: Componentes React
+- [x] **11.3** | :arrow_right: Projeto: Movie Card Library
+
+### [Bloco 12: Componenetes com Estado, Eventos e Formulários com React](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_12)
+
+- [x] **12.1** | :arrow_right: Componentes com estado e eventos
+- [x] **12.2** | :arrow_right: Formulários no React
+- [x] **12.3** | :arrow_right: Projeto: Movie Card Library Stateful
+
+### [Bloco 13: Ciclo de Vida de Componentes e React Router](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_13/dia_1%20ciclo%20de%20vida%20de%20componentes/fixacao)
+
+- [x] **13.1**| :arrow_right: Ciclo de vida de componentes
+- [x] **13.2**| :arrow_right: React Router
+- [x] **13.3**| :arrow_right: Projeto: Movie Card Library CRUD 
+
+### Bloco 14: Metodologias Ágeis
+
+- [x] **14.1**| :arrow_right: Metodologias Ágeis
+
+### [Bloco 15: Testes automatizados com React Testing Library](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_15)
+
+- [x] **15.1**| :arrow_right: React Testing Library - Primeiros passos
+- [x] **15.2**| :arrow_right: React Testing Library - Mocks e Inputs
+- [x] **15.3**| :arrow_right: React Testing Library - Testando React Router
+- [x] **15.4**| :arrow_right: Projeto: Testes em React
+
+### Bloco 16: Gerenciamento de estado com Redux
+
+- [ ] **16.1**| :arrow_right: Introdução ao Redux - O estado global da aplicação
+- [ ] **16.2**| :arrow_right: Usando o Redux no React
+- [ ] **16.3**| :arrow_right: Usando o React no Redux - Prática
+- [ ] **16.4**| :arrow_right: Usando o React no Redux - Actions Assíncronas
+- [ ] **16.5**| :arrow_right: Testes em React-Redux
+- [ ] **16.6**| :arrow_right: Projeto: Trybe Wallet
+
+### Bloco 17: Projeto em React
+
+- [ ] **17.1** :arrow_right: Projeto: Jogo de Trivia
+
+### Bloco 18: Context API e React Hooks
+
+ - [ ] **18.1**| :arrow_right: Context API do React
+ - [ ] **18-2**| :arrow_right: React Hooks - useState e useContext
+ - [ ] **18-3**| :arrow_right: React Hooks - useEffect e Hooks customizados
+ - [ ] **18.4**| :arrow_right: Projeto: StarWars Datatable com Conext API e Hooks
+ 
+### Bloco 19: Projeto Final de Front-end
+
+- [ ] **19-1**| :arrow_right: Projeto: App de Receitas
+<div align="center">
+
+<image src="./logosREADME/logotrybe2.png" width="40" height="40" >
+
+## Desenvolvimento Back-end
+
+</div>
+
+### Bloco 20: Introdução à SQL
+
+- [ ] **20.1**| :arrow_right: Banco de dados SQL
+- [ ] **20.2**| :arrow_right: Encontrando dados em um banco de dados
+- [ ] **20.3**| :arrow_right: Filtrando dados de forma específica
+- [ ] **20.4**| :arrow_right: Manipulando tabelas
+- [ ] **20.5**| :arrow_right: Projeto: All For One
+
+### Bloco 21: Funções SQL, JOINs e Subqueries
+
+- [ ] **21.1**| :arrow_right: Funções mais usadas no SQL
+- [ ] **21.2**| :arrow_right: Descomplicando JOINs, UNIONs e Subqueries
+- [ ] **21.3**| :arrow_right: Stored Routines & Stored Functions
+- [ ] **21.4**| :arrow_right: Projeto: Vocabulary Booster
+
+### Bloco 22: Normalização e Modelagem de Bancos de dados
+
+- [ ] **22.1**| :arrow_right: Transformando ideias em um modelo de banco de dados
+- [ ] **22.2**| :arrow_right: Normalização, Formas Normais e Dumps
+- [ ] **22.3**| :arrow_right: Transformando ideias em um modelo de banco de dados - Parte 2
+- [ ] **22.4**| :arrow_right: Projeto: One For All
+
+### Bloco 23: Introdução ao MongoDB
+
+- [ ] **23.1**| :arrow_right: Introdução - NoSQL
+- [ ] **23.2**| :arrow_right: Introdução - MongoDB
+- [ ] **23.3**| :arrow_right: Filter Operators
+- [ ] **23.4**| :arrow_right: Projeto: Data Flights
+
+### Bloco 24: MongoDB: Updates Simples e Complexos
+
+- [ ] **24.1**| :arrow_right: Updates Simples
+- [ ] **24.2**| :arrow_right: Updates Complexos - Arrays - Parte 1
+- [ ] **24.3**| :arrow_right: Updates Complexos - Arrays - Parte 2
+- [ ] **24.4**| :arrow_right: Projeto: Commerce
+
+### Bloco 25: Aggregation Framework
+
+- [ ] **25.1**| :arrow_right: Aggregation Framework - Part 1
+- [ ] **25.2**| :arrow_right: Aggregation Framework - Part 2
+- [ ] **25.3**| :arrow_right: Projeto: Aggregations
+
+### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
+
+- [ ] **26.1**| :arrow_right: Introdução - NodeJS
+- [ ] **26.2**| :arrow_right: NodeJS - Fluxo Assíncrono
+- [ ] **26.3**| :arrow_right: NodeJS - Arquitetura
+- [ ] **26.4**| :arrow_right: Express HTTP com Node.js
+- [ ] **26.5**| :arrow_right: Práticando Express
+- [ ] **26.6**| :arrow_right: Projeto: Crush Manager
+
+### Bloco 27: NodeJS: Camada de serviço e Arqutetura Rest e Restful 
+
+- [ ] **27.1**| :arrow_right: Arquitetura de Software: Camada de Model
+- [ ] **27.2**| :arrow_right: Arquitetura de Software - Camada de Controller e Service
+- [ ] **27.3**| :arrow_right: Arquitetura web - Rest e Restful
+- [ ] **27.4**| :arrow_right: Projeto: Store Manager
+
+### Bloco 28: Autenticação e Upload de Arquivos
+
+- [ ] **28.1**| :arrow_right: NodeJS - JWT - (JSON Web Token)
+- [ ] **28.2**| :arrow_right: NodeJS - Upload de arquivos com Multer
+- [ ] **28.3**| :arrow_right: Projeto: Cookmaster
+
+### Bloco 29: Deployment
+
+- [ ] **29.1**| :arrow_right: Infraestrutura - Deploy com Heroku
+- [ ] **29.2**| :arrow_right: Deploy - Gerenciadores de Processos
+- [ ] **29.3**| :arrow_right: Projeto: Stranger Things
+
+### Bloco 30: Trybeer
+
+- [ ] **30.1**| :arrow_right: Projeto: Trybeer
+
+### Bloco 31: Arquitetura: SOLID e ORM
+
+- [ ] **31.1**| :arrow_right: Arquitetura - Princípios SOLID
+- [ ] **31.2**| :arrow_right: ORM - Interface da aplicação com o banco de dados
+- [ ] **31.3**| :arrow_right: ORM - Associations
+- [ ] **31.4**| :arrow_right: Boas práticas na escrita de testes
+- [ ] **31.5**| :arrow_right: Projeto: API de Blogs
+
+### Bloco 32: Sockets
+
+- [ ] **32.1**| :arrow_right: Sockets - TCP/UDP & NET
+- [ ] **32.2**| :arrow_right: Sockets - Socket.io
+- [ ] **32.3**| :arrow_right: Arquitetura de Software - Camada de View
+- [ ] **32.4**| :arrow_right: Projeto: Webchat
+
+### Bloco 33: Trybeer V2
+
+- [ ] **33.1**| :arrow_right: Projeto: Trybeer V2
+<div align="center">
+
+## Ciência da Computação
+<image src="./logosREADME/logotrybe2.png" width="40" height="40" >
+</div>
+
+### Bloco 34: Arquitetura de Computadores e Redes
+
+- [ ] **34.1**| :arrow_right: Arquitetura de Computadores
+- [ ] **34.2**| :arrow_right: Arquitetura de redes
+- [ ] **34.3**| :arrow_right: Redes de computadores, ferramentas e segurança
+- [ ] **34.4**| :arrow_right: Projeto: Explorando os protocolos
+
+### Bloco 35: Introdução à Python e Raspagem de Dados da Web
+
+- [ ] **35.1**: :arrow_right: Aprendendo Python
+- [ ] **35.2**: :arrow_right: Entrada e Saída de dados
+- [ ] **35.3**: :arrow_right: Raspagem de dados
+- [ ] **35.4**: :arrow_right: Testes
+- [ ] **35.5**: :arrow_right: Projeto: Tech news
+
+### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
+
+- [ ] **36.1**| :arrow_right: Introdução à programação orientada a objetos
+- [ ] **36.2**| :arrow_right: Programação orientada a objetos na prática
+- [ ] **36.3**| :arrow_right: Padrões de projeto
+- [ ] **36.4**| :arrow_right: Projeto: Relatórios de Estoque
+
+### Bloco 37: Algoritmos e Estrutura de Dados
+
+- [ ] **37.1**| :arrow_right: Estrutura de dados I - Arrays
+- [ ] **37.2**| :arrow_right: Estrutura de dados I - Complexidade de Algoritmos
+- [ ] **37.3**| :arrow_right: Recursividade e Estratégias para solução de problemas
+- [ ] **37.4**| :arrow_right: Algoritmos de ordenação e busca
+- [ ] **37.5**| :arrow_right: Projeto: Algoritmos
+
+### Bloco 38: Estrutura de dados: Hash e Set
+
+- [ ] **38.1**| :arrow_right: Estrutura de dados II - Hash maps & Dict
+- [ ] **38.2**| :arrow_right: Estrutura de dados II - Set
+- [ ] **38.3**| :arrow_right: Projeto: Restaurant Orders
+
+### Bloco 39: Estrutura de dados: Pilhas, Filas e Listas
+
+- [ ] **39.1**| :arrow_right: Estruturas de dados III - Pilhas
+- [ ] **39.2**| :arrow_right: Estruturas de dados III - Deque
+- [ ] **39.3**| :arrow_right: Estruturas de dados III - Nó & Linhas
+- [ ] **39.4**| :arrow_right: Listas Duplamente Ligadas
+- [ ] **39.5**| :arrow_right: Projeto: TING - Trybe Is Not Google
+
+--------------------------------------------------------------------------------
+<div align="center">
+ 
+*Criado usando como base os readmes dos repositórios de [Débora Silveria](https://github.com/deboracosilveira/trybe) e [Alexandre Faustino](https://github.com/alexandrefaustino/trybe-exercises).*
+<div>

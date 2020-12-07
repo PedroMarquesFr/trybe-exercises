@@ -118,7 +118,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [ ] **14.1**| :arrow_right: Metodologias Ágeis
 
-### Bloco 15: Testes automatizados com React Testing Library
+### [Bloco 15: Testes automatizados com React Testing Library](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_15)
 
 - [ ] **15.1**| :arrow_right: React Testing Library - Primeiros passos
 - [ ] **15.2**| :arrow_right: React Testing Library - Mocks e Inputs

@@ -116,14 +116,14 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 14: Metodologias Ágeis
 
-- [ ] **14.1**| :arrow_right: Metodologias Ágeis
+- [x] **14.1**| :arrow_right: Metodologias Ágeis
 
 ### [Bloco 15: Testes automatizados com React Testing Library](https://github.com/PedroMarquesFr/trybe-exercises/tree/master/bloco_15)
 
-- [ ] **15.1**| :arrow_right: React Testing Library - Primeiros passos
-- [ ] **15.2**| :arrow_right: React Testing Library - Mocks e Inputs
-- [ ] **15.3**| :arrow_right: React Testing Library - Testando React Router
-- [ ] **15.4**| :arrow_right: Projeto: Testes em React
+- [x] **15.1**| :arrow_right: React Testing Library - Primeiros passos
+- [x] **15.2**| :arrow_right: React Testing Library - Mocks e Inputs
+- [x] **15.3**| :arrow_right: React Testing Library - Testando React Router
+- [x] **15.4**| :arrow_right: Projeto: Testes em React
 
 ### Bloco 16: Gerenciamento de estado com Redux
 

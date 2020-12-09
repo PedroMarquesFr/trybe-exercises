@@ -127,7 +127,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 16: Gerenciamento de estado com Redux
 
-- [ ] **16.1**| :arrow_right: Introdução ao Redux - O estado global da aplicação
+- [x] **16.1**| :arrow_right: Introdução ao Redux - O estado global da aplicação
 - [ ] **16.2**| :arrow_right: Usando o Redux no React
 - [ ] **16.3**| :arrow_right: Usando o React no Redux - Prática
 - [ ] **16.4**| :arrow_right: Usando o React no Redux - Actions Assíncronas

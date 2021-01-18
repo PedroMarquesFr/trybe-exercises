@@ -131,16 +131,16 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 - [x] **16.2**| :arrow_right: Usando o Redux no React
 - [x] **16.3**| :arrow_right: Usando o React no Redux - Prática
 - [x] **16.4**| :arrow_right: Usando o React no Redux - Actions Assíncronas
-- [ ] **16.5**| :arrow_right: Testes em React-Redux
-- [ ] **16.6**| :arrow_right: Projeto: Trybe Wallet
+- [x] **16.5**| :arrow_right: Testes em React-Redux
+- [x] **16.6**| :arrow_right: Projeto: Trybe Wallet
 
 ### Bloco 17: Projeto em React
 
-- [ ] **17.1** :arrow_right: Projeto: Jogo de Trivia
+- [x] **17.1** :arrow_right: Projeto: Jogo de Trivia
 
 ### Bloco 18: Context API e React Hooks
 
- - [ ] **18.1**| :arrow_right: Context API do React
+ - [x] **18.1**| :arrow_right: Context API do React
  - [ ] **18-2**| :arrow_right: React Hooks - useState e useContext
  - [ ] **18-3**| :arrow_right: React Hooks - useEffect e Hooks customizados
  - [ ] **18.4**| :arrow_right: Projeto: StarWars Datatable com Conext API e Hooks

@@ -142,7 +142,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
  - [x] **18.1**| :arrow_right: Context API do React
  - [x] **18-2**| :arrow_right: React Hooks - useState e useContext
- - [ ] **18-3**| :arrow_right: React Hooks - useEffect e Hooks customizados
+ - [x] **18-3**| :arrow_right: React Hooks - useEffect e Hooks customizados
  - [ ] **18.4**| :arrow_right: Projeto: StarWars Datatable com Conext API e Hooks
  
 ### Bloco 19: Projeto Final de Front-end

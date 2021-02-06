@@ -143,7 +143,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
  - [x] **18.1**| :arrow_right: Context API do React
  - [x] **18-2**| :arrow_right: React Hooks - useState e useContext
  - [x] **18-3**| :arrow_right: React Hooks - useEffect e Hooks customizados
- - [ ] **18.4**| :arrow_right: Projeto: StarWars Datatable com Conext API e Hooks
+ - [x] **18.4**| :arrow_right: Projeto: StarWars Datatable com Conext API e Hooks
  
 ### Bloco 19: Projeto Final de Front-end
 
@@ -158,7 +158,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 20: Introdução à SQL
 
-- [ ] **20.1**| :arrow_right: Banco de dados SQL
+- [x] **20.1**| :arrow_right: Banco de dados SQL
 - [ ] **20.2**| :arrow_right: Encontrando dados em um banco de dados
 - [ ] **20.3**| :arrow_right: Filtrando dados de forma específica
 - [ ] **20.4**| :arrow_right: Manipulando tabelas

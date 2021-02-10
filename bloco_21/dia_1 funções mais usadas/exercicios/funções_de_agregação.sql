@@ -1,3 +1,6 @@
+ 
+ -- https://www.w3resource.com/mysql-exercises/aggregate-function-exercises/
+
 USE hr;
 SELECT * FROM  employees;
 -- 1. Write a query to list the number of jobs available in the employees table. Go to the editor

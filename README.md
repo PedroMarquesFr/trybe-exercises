@@ -160,13 +160,13 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [x] **20.1**| :arrow_right: Banco de dados SQL
 - [x] **20.2**| :arrow_right: Encontrando dados em um banco de dados
-- [ ] **20.3**| :arrow_right: Filtrando dados de forma específica
-- [ ] **20.4**| :arrow_right: Manipulando tabelas
-- [ ] **20.5**| :arrow_right: Projeto: All For One
+- [x] **20.3**| :arrow_right: Filtrando dados de forma específica
+- [x] **20.4**| :arrow_right: Manipulando tabelas
+- [x] **20.5**| :arrow_right: Projeto: All For One
 
 ### Bloco 21: Funções SQL, JOINs e Subqueries
 
-- [ ] **21.1**| :arrow_right: Funções mais usadas no SQL
+- [x] **21.1**| :arrow_right: Funções mais usadas no SQL
 - [ ] **21.2**| :arrow_right: Descomplicando JOINs, UNIONs e Subqueries
 - [ ] **21.3**| :arrow_right: Stored Routines & Stored Functions
 - [ ] **21.4**| :arrow_right: Projeto: Vocabulary Booster

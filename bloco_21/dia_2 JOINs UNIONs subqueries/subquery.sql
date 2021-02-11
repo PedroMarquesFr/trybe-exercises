@@ -1,3 +1,5 @@
+
+-- Usando uma SUBQUERY como fonte de dados para o FROM .
 SELECT f.title, f.rating
 FROM (
     SELECT *
@@ -5,6 +7,7 @@ FROM (
     WHERE rating = 'R'
 ) AS f;
 
+-- Preenchendo uma coluna de um SELECT por meio de uma SUBQUERY.
 SELECT
     address,
     district,
@@ -15,6 +18,7 @@ SELECT
     ) AS city
 FROM sakila.address;
 
+-- Preenchendo uma coluna de um SELECT por meio de uma SUBQUERY.
 SELECT address, district
 FROM sakila.address
 WHERE city_id in (
@@ -23,6 +27,7 @@ WHERE city_id in (
     WHERE city in ('Sasebo', 'San Bernardino', 'Athenai', 'Myingyan')
 );
 
+-- Usando uma tabela externa, de fora da SUBQUERY , dentro dela.
 SELECT
     first_name,
     (

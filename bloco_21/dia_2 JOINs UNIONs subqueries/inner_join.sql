@@ -61,12 +61,6 @@ SELECT * FROM sakila.actor;
 SELECT * FROM sakila.film_actor;
 SELECT * FROM sakila.film;
 
-SELECT a.actor_id, a.first_name, f.film_id, f.title
-FROM sakila.actor AS a
-INNER JOIN sakila.film_actor AS fa
-INNER JOIN sakila.film AS f
-ON a.actor_id = fa.actor_id;
-
 SELECT A.actor_id, A.first_name, F.film_id, F.title
 FROM sakila.actor AS A
 INNER JOIN sakila.film_actor AS FA ON A.actor_id = FA.actor_id

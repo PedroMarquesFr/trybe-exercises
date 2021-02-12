@@ -1,4 +1,5 @@
 -- The Warehouse
+USE praticando;
 -- lINK: https://en.wikibooks.org/wiki/SQL_Exercises/The_warehouse
 -- 3.1 Select all warehouses.
 -- 3.2 Select all boxes with a value larger than $150.
@@ -9,19 +10,42 @@
 -- 3.7 Select the code of each box, along with the name of the city the box is located in.
 SELECT * FROM Boxes;
 SELECT * FROM Warehouses;
+
 SELECT b.Code, (SELECT Location FROM Warehouses WHERE Code = b.Code) FROM Boxes AS b;
 -- ou
-SELECT b.Code, w.Location FROM Boxes AS b
+SELECT b.Code, COUNT(w.Location) FROM Boxes AS b
 INNER JOIN Warehouses AS w ON w.Code = b.Code;
 
 -- 3.8 Select the warehouse codes, along with the number of boxes in each warehouse. 
     -- Optionally, take into account that some warehouses are empty (i.e., the box count should show up as zero, instead of omitting the warehouse from the result).
 SELECT * FROM Boxes;
-SELECT w.Code, COUNT(b.Location) FROM Warehouses as w
-INNER JOIN Boxes AS b ON b.Warehouse = w.Code
+SELECT w.Code, COUNT(b.Contents) AS Num_of_boxes FROM Warehouses as w
+JOIN Boxes AS b ON b.Warehouse = w.Code
 GROUP BY w.Code;
--- --3.9 Select the codes of all warehouses that are saturated (a warehouse is saturated if the number of boxes in it is larger than the warehouse's capacity).
--- --3.10 Select the codes of all the boxes located in Chicago.
+-- 3.9 Select the codes of all warehouses that are saturated (a warehouse is saturated if the number of boxes in it is larger than the warehouse's capacity).
+SELECT * FROM Warehouses as w
+WHERE EXISTS(
+	SELECT * FROM Boxes
+	WHERE Warehouse = w.Code AND (
+		SELECT COUNT(Warehouse) FROM Boxes 
+        WHERE Warehouse = w.Code 
+        GROUP BY Warehouse
+	) > w.Capacity
+);
+
+SELECT *
+   FROM Warehouses
+   WHERE Capacity <
+   (
+     SELECT COUNT(*)
+       FROM Boxes
+       WHERE Warehouse = Warehouses.Code
+   );
+-- 3.10 Select the codes of all the boxes located in Chicago.
+SELECT * FROM Boxes;
+SELECT * FROM Warehouses;
+SELECT Code FROM Boxes AS b
+WHERE EXISTS (SELECT * FROM Warehouses WHERE b.Warehouse = 4);
 -- --3.11 Create a new warehouse in New York with a capacity for 3 boxes.
 -- --3.12 Create a new box, with code "H5RT", containing "Papers" with a value of $200, and located in warehouse 2.
 -- --3.13 Reduce the value of all boxes by 15%.

@@ -167,9 +167,9 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 ### Bloco 21: Funções SQL, JOINs e Subqueries
 
 - [x] **21.1**| :arrow_right: Funções mais usadas no SQL
-- [ ] **21.2**| :arrow_right: Descomplicando JOINs, UNIONs e Subqueries
-- [ ] **21.3**| :arrow_right: Stored Routines & Stored Functions
-- [ ] **21.4**| :arrow_right: Projeto: Vocabulary Booster
+- [x] **21.2**| :arrow_right: Descomplicando JOINs, UNIONs e Subqueries
+- [x] **21.3**| :arrow_right: Stored Routines & Stored Functions
+- [x] **21.4**| :arrow_right: Projeto: Vocabulary Booster
 
 ### Bloco 22: Normalização e Modelagem de Bancos de dados
 

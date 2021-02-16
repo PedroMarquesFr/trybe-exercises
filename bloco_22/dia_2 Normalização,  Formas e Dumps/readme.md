@@ -1,0 +1,1 @@
+antes de ve a imagem vai na aba administration no esquerda e seleciona data export

@@ -173,9 +173,9 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 22: Normalização e Modelagem de Bancos de dados
 
-- [ ] **22.1**| :arrow_right: Transformando ideias em um modelo de banco de dados
-- [ ] **22.2**| :arrow_right: Normalização, Formas Normais e Dumps
-- [ ] **22.3**| :arrow_right: Transformando ideias em um modelo de banco de dados - Parte 2
+- [x] **22.1**| :arrow_right: Transformando ideias em um modelo de banco de dados
+- [x] **22.2**| :arrow_right: Normalização, Formas Normais e Dumps
+- [x] **22.3**| :arrow_right: Transformando ideias em um modelo de banco de dados - Parte 2
 - [ ] **22.4**| :arrow_right: Projeto: One For All
 
 ### Bloco 23: Introdução ao MongoDB

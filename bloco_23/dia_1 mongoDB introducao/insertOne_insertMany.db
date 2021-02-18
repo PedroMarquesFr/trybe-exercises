@@ -1,0 +1,2 @@
+db.collection.insertOne({productName:"Caixa", price:20})
+db.collection.insertMany([{productName:"Caixa", price:20},{productName:"Caixa", price:20}])

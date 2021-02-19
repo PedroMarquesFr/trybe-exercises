@@ -1,0 +1,2 @@
+db.bios.count()
+> 10

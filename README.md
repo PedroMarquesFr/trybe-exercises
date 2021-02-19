@@ -176,11 +176,11 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 - [x] **22.1**| :arrow_right: Transformando ideias em um modelo de banco de dados
 - [x] **22.2**| :arrow_right: Normalização, Formas Normais e Dumps
 - [x] **22.3**| :arrow_right: Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] **22.4**| :arrow_right: Projeto: One For All
+- [x] **22.4**| :arrow_right: Projeto: One For All
 
 ### Bloco 23: Introdução ao MongoDB
 
-- [ ] **23.1**| :arrow_right: Introdução - NoSQL
+- [x] **23.1**| :arrow_right: Introdução - NoSQL
 - [ ] **23.2**| :arrow_right: Introdução - MongoDB
 - [ ] **23.3**| :arrow_right: Filter Operators
 - [ ] **23.4**| :arrow_right: Projeto: Data Flights

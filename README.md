@@ -182,8 +182,8 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [x] **23.1**| :arrow_right: Introdução - NoSQL
 - [x] **23.2**| :arrow_right: Introdução - MongoDB
-- [ ] **23.3**| :arrow_right: Filter Operators
-- [ ] **23.4**| :arrow_right: Projeto: Data Flights
+- [x] **23.3**| :arrow_right: Filter Operators
+- [x] **23.4**| :arrow_right: Projeto: Data Flights
 
 ### Bloco 24: MongoDB: Updates Simples e Complexos
 

@@ -187,10 +187,10 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 24: MongoDB: Updates Simples e Complexos
 
-- [ ] **24.1**| :arrow_right: Updates Simples
-- [ ] **24.2**| :arrow_right: Updates Complexos - Arrays - Parte 1
-- [ ] **24.3**| :arrow_right: Updates Complexos - Arrays - Parte 2
-- [ ] **24.4**| :arrow_right: Projeto: Commerce
+- [x] **24.1**| :arrow_right: Updates Simples
+- [x] **24.2**| :arrow_right: Updates Complexos - Arrays - Parte 1
+- [x] **24.3**| :arrow_right: Updates Complexos - Arrays - Parte 2
+- [x] **24.4**| :arrow_right: Projeto: Commerce
 
 ### Bloco 25: Aggregation Framework
 

@@ -194,7 +194,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 25: Aggregation Framework
 
-- [ ] **25.1**| :arrow_right: Aggregation Framework - Part 1
+- [x] **25.1**| :arrow_right: Aggregation Framework - Part 1
 - [ ] **25.2**| :arrow_right: Aggregation Framework - Part 2
 - [ ] **25.3**| :arrow_right: Projeto: Aggregations
 

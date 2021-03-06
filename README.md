@@ -203,9 +203,9 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 - [x] **26.1**| :arrow_right: Introdução - NodeJS
 - [x] **26.2**| :arrow_right: NodeJS - Fluxo Assíncrono
 - [x] **26.3**| :arrow_right: NodeJS - Arquitetura
-- [ ] **26.4**| :arrow_right: Express HTTP com Node.js
-- [ ] **26.5**| :arrow_right: Práticando Express
-- [ ] **26.6**| :arrow_right: Projeto: Crush Manager
+- [x] **26.4**| :arrow_right: Express HTTP com Node.js
+- [x] **26.5**| :arrow_right: Práticando Express
+- [x] **26.6**| :arrow_right: Projeto: Crush Manager
 
 ### Bloco 27: NodeJS: Camada de serviço e Arqutetura Rest e Restful 
 

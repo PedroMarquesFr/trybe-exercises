@@ -209,7 +209,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 27: NodeJS: Camada de serviço e Arqutetura Rest e Restful 
 
-- [ ] **27.1**| :arrow_right: Arquitetura de Software: Camada de Model
+- [x] **27.1**| :arrow_right: Arquitetura de Software: Camada de Model
 - [ ] **27.2**| :arrow_right: Arquitetura de Software - Camada de Controller e Service
 - [ ] **27.3**| :arrow_right: Arquitetura web - Rest e Restful
 - [ ] **27.4**| :arrow_right: Projeto: Store Manager

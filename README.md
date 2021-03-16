@@ -210,14 +210,14 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 ### Bloco 27: NodeJS: Camada de serviço e Arqutetura Rest e Restful 
 
 - [x] **27.1**| :arrow_right: Arquitetura de Software: Camada de Model
-- [ ] **27.2**| :arrow_right: Arquitetura de Software - Camada de Controller e Service
-- [ ] **27.3**| :arrow_right: Arquitetura web - Rest e Restful
-- [ ] **27.4**| :arrow_right: Projeto: Store Manager
+- [x] **27.2**| :arrow_right: Arquitetura de Software - Camada de Controller e Service
+- [x] **27.3**| :arrow_right: Arquitetura web - Rest e Restful
+- [x] **27.4**| :arrow_right: Projeto: Store Manager
 
 ### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] **28.1**| :arrow_right: NodeJS - JWT - (JSON Web Token)
-- [ ] **28.2**| :arrow_right: NodeJS - Upload de arquivos com Multer
+- [x] **28.1**| :arrow_right: NodeJS - JWT - (JSON Web Token)
+- [x] **28.2**| :arrow_right: NodeJS - Upload de arquivos com Multer
 - [ ] **28.3**| :arrow_right: Projeto: Cookmaster
 
 ### Bloco 29: Deployment

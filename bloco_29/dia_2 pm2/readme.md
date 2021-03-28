@@ -1,4 +1,4 @@
-pm2 start src/index.js --name cookmastar
+pm2 start src/index.js --name <NOME_DO_PROCESSO>
 
 pm2 l
 pm2 show [id]
@@ -11,3 +11,5 @@ pm2 reload [is | name] -- eh melhor pq ele cria uma copia e quando a copia tiver
 
 pm2 monit
 pm2 monitor
+
+pm2 [start | reload | restart] index.js -i max --name <NOME_DO_PROCESSO>

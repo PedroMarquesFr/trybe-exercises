@@ -218,12 +218,12 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [x] **28.1**| :arrow_right: NodeJS - JWT - (JSON Web Token)
 - [x] **28.2**| :arrow_right: NodeJS - Upload de arquivos com Multer
-- [ ] **28.3**| :arrow_right: Projeto: Cookmaster
+- [x] **28.3**| :arrow_right: Projeto: Cookmaster
 
 ### Bloco 29: Deployment
 
-- [ ] **29.1**| :arrow_right: Infraestrutura - Deploy com Heroku
-- [ ] **29.2**| :arrow_right: Deploy - Gerenciadores de Processos
+- [x] **29.1**| :arrow_right: Infraestrutura - Deploy com Heroku
+- [x] **29.2**| :arrow_right: Deploy - Gerenciadores de Processos
 - [ ] **29.3**| :arrow_right: Projeto: Stranger Things
 
 ### Bloco 30: Trybeer

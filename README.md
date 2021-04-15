@@ -240,7 +240,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 32: Sockets
 
-- [ ] **32.1**| :arrow_right: Sockets - TCP/UDP & NET
+- [x] **32.1**| :arrow_right: Sockets - TCP/UDP & NET
 - [ ] **32.2**| :arrow_right: Sockets - Socket.io
 - [ ] **32.3**| :arrow_right: Arquitetura de Software - Camada de View
 - [ ] **32.4**| :arrow_right: Projeto: Webchat

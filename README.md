@@ -235,8 +235,8 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 - [x] **31.1**| :arrow_right: Arquitetura - Princípios SOLID
 - [x] **31.2**| :arrow_right: ORM - Interface da aplicação com o banco de dados
 - [x] **31.3**| :arrow_right: ORM - Associations
-- [ ] **31.4**| :arrow_right: Boas práticas na escrita de testes
-- [ ] **31.5**| :arrow_right: Projeto: API de Blogs
+- [x] **31.4**| :arrow_right: Boas práticas na escrita de testes
+- [x] **31.5**| :arrow_right: Projeto: API de Blogs
 
 ### Bloco 32: Sockets
 

@@ -243,7 +243,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 - [x] **32.1**| :arrow_right: Arquitetura de Software - Camada de View
 - [x] **32.2**| :arrow_right: Sockets - TCP/UDP & NET
 - [x] **32.3**| :arrow_right: Sockets - Socket.io
-- [ ] **32.4**| :arrow_right: Projeto: Webchat
+- [x] **32.4**| :arrow_right: Projeto: Webchat
 
 ### Bloco 33: Trybeer V2
 

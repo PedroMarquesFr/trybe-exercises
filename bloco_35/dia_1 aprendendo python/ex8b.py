@@ -8,9 +8,9 @@ def triangle(number):
 
     while loop:
         for i in range(space):
-            print(' ', end='')
+            print(" ", end="")
         for i in range(line):
-            print('*', end='')
+            print("*", end="")
         print()
         if line >= number:
             loop = False

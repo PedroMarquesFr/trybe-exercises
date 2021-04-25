@@ -263,8 +263,8 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 35: Introdução à Python e Raspagem de Dados da Web
 
-- [ ] **35.1**: :arrow_right: Aprendendo Python
-- [ ] **35.2**: :arrow_right: Entrada e Saída de dados
+- [x] **35.1**: :arrow_right: Aprendendo Python
+- [x] **35.2**: :arrow_right: Entrada e Saída de dados
 - [ ] **35.3**: :arrow_right: Raspagem de dados
 - [ ] **35.4**: :arrow_right: Testes
 - [ ] **35.5**: :arrow_right: Projeto: Tech news

@@ -1,0 +1,1 @@
+repositorio dos exercicios: https://github.com/PedroMarquesFr/python-io

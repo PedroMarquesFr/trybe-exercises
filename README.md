@@ -265,13 +265,13 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [x] **35.1**: :arrow_right: Aprendendo Python
 - [x] **35.2**: :arrow_right: Entrada e Saída de dados
-- [ ] **35.3**: :arrow_right: Raspagem de dados
-- [ ] **35.4**: :arrow_right: Testes
-- [ ] **35.5**: :arrow_right: Projeto: Tech news
+- [x] **35.3**: :arrow_right: Raspagem de dados
+- [x] **35.4**: :arrow_right: Testes
+- [x] **35.5**: :arrow_right: Projeto: Tech news
 
 ### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] **36.1**| :arrow_right: Introdução à programação orientada a objetos
+- [x] **36.1**| :arrow_right: Introdução à programação orientada a objetos
 - [ ] **36.2**| :arrow_right: Programação orientada a objetos na prática
 - [ ] **36.3**| :arrow_right: Padrões de projeto
 - [ ] **36.4**| :arrow_right: Projeto: Relatórios de Estoque

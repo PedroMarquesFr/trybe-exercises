@@ -272,7 +272,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 ### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
 
 - [x] **36.1**| :arrow_right: Introdução à programação orientada a objetos
-- [ ] **36.2**| :arrow_right: Programação orientada a objetos na prática
+- [x] **36.2**| :arrow_right: Programação orientada a objetos na prática
 - [ ] **36.3**| :arrow_right: Padrões de projeto
 - [ ] **36.4**| :arrow_right: Projeto: Relatórios de Estoque
 

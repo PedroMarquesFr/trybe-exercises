@@ -256,7 +256,7 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 ### Bloco 34: Arquitetura de Computadores e Redes
 
-- [ ] **34.1**| :arrow_right: Arquitetura de Computadores
+- [x] **34.1**| :arrow_right: Arquitetura de Computadores
 - [ ] **34.2**| :arrow_right: Arquitetura de redes
 - [ ] **34.3**| :arrow_right: Redes de computadores, ferramentas e segurança
 - [ ] **34.4**| :arrow_right: Projeto: Explorando os protocolos

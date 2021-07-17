@@ -16,8 +16,10 @@ class Repository(ABC):
         não por um código compartilhado. Este exemplo está dessa forma, apenas
         para demonstrar o encapsulamento.
 
-        Em Python há uma convenção que diz que atributos prefixados com _ (um under) são
-        protegidos e atributos prefixados __ (dois under) são privados. Essa restrição de
+        Em Python há uma convenção que diz que atributos prefixados com _ (um
+        under) são
+        protegidos e atributos prefixados __ (dois under) são privados. Essa
+        restrição de
         visibilidade pode ter sintaxes diferentes de acordo com a linguagem
         de programação, como por exemplo, algumas utilizam as palavras-chave
         public, protected e private.

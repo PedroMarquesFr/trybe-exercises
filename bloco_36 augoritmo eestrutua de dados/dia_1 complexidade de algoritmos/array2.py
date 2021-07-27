@@ -15,4 +15,4 @@ def multiply_arrays(array1, array2):
 
 meu_array = [1, 2, 3, 4, 5]
 
-print(multiply_arrays(meu_array, meu_array))
+print(multiply_arrays(range(1, 200), range(1, 200)))

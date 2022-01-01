@@ -273,30 +273,30 @@ Repositório criado com o intuito de abrigar todos exercícios e projetos presen
 
 - [x] **36.1**| :arrow_right: Introdução à programação orientada a objetos
 - [x] **36.2**| :arrow_right: Programação orientada a objetos na prática
-- [ ] **36.3**| :arrow_right: Padrões de projeto
-- [ ] **36.4**| :arrow_right: Projeto: Relatórios de Estoque
+- [x] **36.3**| :arrow_right: Padrões de projeto
+- [x] **36.4**| :arrow_right: Projeto: Relatórios de Estoque
 
 ### Bloco 37: Algoritmos e Estrutura de Dados
 
-- [ ] **37.1**| :arrow_right: Estrutura de dados I - Arrays
-- [ ] **37.2**| :arrow_right: Estrutura de dados I - Complexidade de Algoritmos
-- [ ] **37.3**| :arrow_right: Recursividade e Estratégias para solução de problemas
-- [ ] **37.4**| :arrow_right: Algoritmos de ordenação e busca
-- [ ] **37.5**| :arrow_right: Projeto: Algoritmos
+- [x] **37.1**| :arrow_right: Estrutura de dados I - Arrays
+- [x] **37.2**| :arrow_right: Estrutura de dados I - Complexidade de Algoritmos
+- [x] **37.3**| :arrow_right: Recursividade e Estratégias para solução de problemas
+- [x] **37.4**| :arrow_right: Algoritmos de ordenação e busca
+- [x] **37.5**| :arrow_right: Projeto: Algoritmos
 
 ### Bloco 38: Estrutura de dados: Hash e Set
 
-- [ ] **38.1**| :arrow_right: Estrutura de dados II - Hash maps & Dict
-- [ ] **38.2**| :arrow_right: Estrutura de dados II - Set
-- [ ] **38.3**| :arrow_right: Projeto: Restaurant Orders
+- [x] **38.1**| :arrow_right: Estrutura de dados II - Hash maps & Dict
+- [x] **38.2**| :arrow_right: Estrutura de dados II - Set
+- [x] **38.3**| :arrow_right: Projeto: Restaurant Orders
 
 ### Bloco 39: Estrutura de dados: Pilhas, Filas e Listas
 
-- [ ] **39.1**| :arrow_right: Estruturas de dados III - Pilhas
-- [ ] **39.2**| :arrow_right: Estruturas de dados III - Deque
-- [ ] **39.3**| :arrow_right: Estruturas de dados III - Nó & Linhas
-- [ ] **39.4**| :arrow_right: Listas Duplamente Ligadas
-- [ ] **39.5**| :arrow_right: Projeto: TING - Trybe Is Not Google
+- [x] **39.1**| :arrow_right: Estruturas de dados III - Pilhas
+- [x] **39.2**| :arrow_right: Estruturas de dados III - Deque
+- [x] **39.3**| :arrow_right: Estruturas de dados III - Nó & Linhas
+- [x] **39.4**| :arrow_right: Listas Duplamente Ligadas
+- [x] **39.5**| :arrow_right: Projeto: TING - Trybe Is Not Google
 
 --------------------------------------------------------------------------------
 <div align="center">

@@ -39,6 +39,23 @@ class Deque:
             return self._data.pop()
         return None
 
+    # ex1
+    def clear(self):
+        self._data = []
+
+    def exists(self, value):
+        for element in self._data:
+            if element == value:
+                return True
+        return False
+
+    def peek(self, position, order="cres"):
+        return (
+            self._data[::-1][position]
+            if order == "desc"
+            else self._data[position]
+        )
+
 
 deque = Deque()
 elements_1 = [6, 7, 8, 9, 10]
@@ -61,3 +78,5 @@ print(deque.__len__())  # saída: 8
 
 print(deque.peek_front())  # saída: 9
 print(deque.peek_back())  # saída: 4
+
+print(deque.peek(2, order="desc"))
